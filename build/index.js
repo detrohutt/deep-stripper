@@ -9,7 +9,7 @@ exports.default = function (obj) {
     keys[_key - 1] = arguments[_key];
   }
 
-  return JSON.parse(JSON.stringify(obj, function (k, v) {
+  return JSON.parse(JSON.stringify(Object.assign({}, obj), function (k, v) {
     return keys.indexOf(k) !== -1 ? undefined : v;
   }));
 };

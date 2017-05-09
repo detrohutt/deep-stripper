@@ -1,6 +1,6 @@
 # Deep Stripper
 
-Simple package exports a single function allowing you to strip any number of unwanted keys from an objet, deeply.
+Strip any number of unwanted keys from an object, deeply.
 
 
 ## Install
@@ -13,7 +13,7 @@ yarn add deep-stripper
 
 `deepStrip(obj: Object, ...keys: String) : Object`
 
-You can call the function whatever you'd like when you import it. It's first parameter is the object you'd like to strip keys from. Every parameter after that is the name of a key you'd like stripped.
+You can call the function whatever you'd like when you import it. It's first parameter is the object you'd like to strip keys from. Every parameter after that is the name of a key you'd like stripped. A new object is returned and the original object is not mutated.
 
 ## Example
 
