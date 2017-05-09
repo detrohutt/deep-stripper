@@ -1,6 +1,6 @@
 {
   "name": "deep-stripper",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Strip an object deeply of any key or keys you provide",
   "main": "build/index.js",
   "author": "Alexander Roberts <detrohutt@gmail.com>",
