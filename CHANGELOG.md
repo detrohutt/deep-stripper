@@ -1,5 +1,9 @@
 # ChangeLog
 
+### v2.0.1
+
+Add typescript types
+
 ### v2.0.0
 
 Return a new object and don't mutate the one passed in.
