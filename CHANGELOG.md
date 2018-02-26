@@ -2,7 +2,8 @@
 
 ### v2.0.1
 
-Add typescript types
+* Add typescript types
+* Create .npmignore to decrease bundle size
 
 ### v2.0.0
 
