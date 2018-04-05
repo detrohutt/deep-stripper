@@ -1,5 +1,9 @@
 # ChangeLog
 
+### v2.1.0
+
+* Allow array as input, stripping keys from objects in the array and returning other values unchanged
+
 ### v2.0.1
 
 * Add typescript types
